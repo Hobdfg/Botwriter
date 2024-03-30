@@ -42,6 +42,7 @@ def count_tokens_in_dialogue(messages: list) -> int:
     )
 
 
+
 def get_system_content(subject, level):  # Собирает строку для system_content
     return (f"Ты сценарист который пишет сценарии по жанрам {subject}. Формулируй сюжеты уровня {level}"
             f"Ты пишешь историю вместе с человеком."
